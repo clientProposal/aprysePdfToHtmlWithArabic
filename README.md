@@ -8,4 +8,6 @@ __To get it running__
 
 **In any case**
 
-This code was used to create 
+This code was used to create what you see at src/main/java/resources/lib/output/arabic_processed_from_pdf_to_html
+
+I advise copying the path of cover.xhtml and pasting it into the browser to get an impression of the result.
