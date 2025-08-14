@@ -15,7 +15,7 @@ public class App {
         String token = dotenv.get("PDFTRON_KEY");
         PDFNet.initialize(token);
         String inputPath = System.getProperty("user.dir") + "/src/main/java/resources/arabic_original.pdf";
-        String outputPath = System.getProperty("user.dir") + "/src/main/java/resources/output/arabic_processed_from_pdf_to_html.html";
+        String outputPath = System.getProperty("user.dir") + "/src/main/java/resources/output/arabic_processed_from_pdf_to_html";
         boolean err = false;
         System.err.println(inputPath);
         System.err.println(outputPath);
